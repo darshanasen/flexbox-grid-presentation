@@ -86,7 +86,7 @@ The first step is to add `class="row"` on the direct flex-parent. Then we add a 
 </div>
 ```
 
-In order to test this out, let's start [a new project](/flexbox-grid-test.html).
+In order to test this out, let's start [a new project](/exercises/flexbox-grid-test.html).
 
 Navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
 
