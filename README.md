@@ -100,4 +100,4 @@ Then add a container with `class="col-xs-[preferred column width]"` around each 
 
 You may notice a bit of side-scroll on your test page. If you don't wish to add your own wrapper class, Flexbox Grid has an in-built solution. You can just add a container with a `class="container-fluid"` around any flex-parent.
 
-_Note: The nesting order when setting up Flexbox Grid container classes is `container-fluid > row > cols`_
+_Note: The nesting order when setting up Flexbox Grid container classes is _`container-fluid > row > cols`_ _
