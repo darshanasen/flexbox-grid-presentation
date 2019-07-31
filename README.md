@@ -8,7 +8,7 @@ The layout of Flexbox Grid works within a 12 column grid system.
 
 ![Gallery image](/images/basic-gallery.png)
 
-A gallery using Flexbox would probably look like this:
+Creating the above gallery using Flexbox would probably look like this:
 
 Flexbox HTML
 ```html
@@ -46,9 +46,9 @@ Flexbox CSS
 }
 ```
 
-If we were to create this gallery using Flexbox Grid, we can do it simply using HTML.
+If we were to create this gallery using Flexbox Grid, we can achieve the same design simply using HTML.
 
-The first step is to add `class="row"` on the direct parent element. Followed by a container with a class signifying the amount of columns the flex-child takes up.
+The first step is to add `class="row"` on the direct flex-parent. Then we add a container around each flex-child with a class signifying its width in columns.
 
 
 ```html
@@ -86,4 +86,11 @@ The first step is to add `class="row"` on the direct parent element. Followed by
 </div>
 ```
 
-[Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid)
+In order to test this out, let's start [a new project](/flexbox-grid-test.html).
+
+Check the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
+
+We will be using the CDN
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+```
