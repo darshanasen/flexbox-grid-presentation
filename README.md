@@ -88,9 +88,16 @@ The first step is to add `class="row"` on the direct flex-parent. Then we add a 
 
 In order to test this out, let's start [a new project](/flexbox-grid-test.html).
 
-Check the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
+Navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
 
-We will be using the CDN
+We will be using the CDN:
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 ```
+
+Once we've added the Flexbox Grid CDN, replace `class="flex-container"` on the flex parent with `class="row"`.
+Then add a container with `class="col-xs-[preferred column width]"` around each flex-child.
+
+You may notice a bit of side-scroll on your test page. If you don't wish to add your own wrapper class, Flexbox Grid has an in-built solution. You can just add a container with a `class="container-fluid"` around any flex-parent.
+
+_Note: The nesting order when setting up Flexbox Grid container classes is `container-fluid > row > cols`_
