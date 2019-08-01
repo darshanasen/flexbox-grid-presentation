@@ -116,8 +116,8 @@ So far we have a basic grid set-up. But what if we wish for our layout to change
 
 * `xs= <48em (Small devices)`
 * `sm= >48em (Medium devices)`
-* `md= <48em (Large devices)`
-* `lg= <48em (Extra-large devices)`
+* `md= >64em (Large devices)`
+* `lg= >75em (Extra-large devices)`
 
 These viewport classes work in ascending order so if you define a column width at `sm` and don't define any other viewports, the styles will be applied from `sm` to `lg`; however, no style will be applied in the `xs` viewport. This is why it's best practice to always start by defining your `xs` viewport styles.
 
