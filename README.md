@@ -153,13 +153,29 @@ If you wish to distribute the contents of a flex-parent the following classes ca
 
 ### Other classes
 
-![Offset image](/images/grid-offset.png)
-
 If you would like to create space around content within your grid, you can use offset classes to do so. 
+Please note that offsets create additional space on the _left_ of any element.
 
 `class="col-xs-offset-4 col-xs-8"`
 
-Please note that offsets create additional space on the _left_ of any element.
+![Offset image](/images/grid-offset.png)
+
+```html
+<div class="row">
+    <div class="col-xs-5">
+        <div class="gallery-item">
+            <h1>Ron Swanson</h1>
+        </div>
+     </div>
+    <div class="col-xs-offset-1 col-xs-6">
+        <div class="gallery-item">
+            <h3>Give me all the</h3>
+            <p>bacon and eggs you have</p>
+        </div>
+    </div>
+</div>
+```
+
 
 ## Resources
 * [Flexbox Grid Classes](http://flexboxgrid.com/)
