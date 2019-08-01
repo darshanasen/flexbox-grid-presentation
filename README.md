@@ -96,7 +96,7 @@ The first step is to add `class="row"` on the direct flex-parent. Then we add a 
 
 In order to test this out, let's start [a new project](/flexbox-grid-test.html).
 
-Navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
+Let's navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add it to our project.
 
 There are a number of ways to include Flexbox Grid within your project but we will be using the CDN:
 ```html
