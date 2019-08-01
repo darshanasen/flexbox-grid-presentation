@@ -6,11 +6,11 @@ ___Flexbox Grid___ is a grid system based on the flex display property. It’s e
 
 Similar frameworks/grid systems include [CSS Grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) and [Bootstrap](https://getbootstrap.com/).
 
-##What is a grid system and why should we use it?
+## What is a grid system and why should we use it?
 
 Grid systems are a layout methodology used by some web designers. Designers are tasked with determining how to visually organize a web page in a coherent and pleasing manner; grid systems are a layout solution which allows designers to arrange and align items within a given format. They are a popular design solution on account of layout consistency and cohesiveness, design and collaboration efficiency and overall user clarity.
 
-##Flexbox Grid implementation
+## Flexbox Grid implementation
 
 The layout of Flexbox Grid works within a 12-column grid design system. 
 
