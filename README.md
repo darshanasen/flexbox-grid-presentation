@@ -18,7 +18,7 @@ The layout of Flexbox Grid works within a 12-column grid design system.
 
 Creating the above gallery using Flexbox would probably look like this:
 
-Flexbox HTML
+Flexbox HTML:
 ```html
 <div class="flex-container">
     <div class="gallery-item">
@@ -42,7 +42,7 @@ Flexbox HTML
 </div>
 ```
 
-Flexbox CSS
+Flexbox CSS:
 ```css
 .flex-container {
     display: flex;
@@ -112,46 +112,46 @@ _Note: The nesting order when setting up Flexbox Grid container classes is `cont
 
 So far we have a basic grid set-up. But what if we wish for our layout to change across viewports?
 
-###Breakpoint classes
+### Breakpoint classes
 
-`xs= <48em (Small devices)`
-`sm= >48em (Medium devices)`
-`md= <48em (Large devices)`
-`lg= <48em (Extra-large devices)`
+* `xs= <48em (Small devices)`
+* `sm= >48em (Medium devices)`
+* `md= <48em (Large devices)`
+* `lg= <48em (Extra-large devices)`
 
 These viewport classes work in ascending order so if you define a column width at `sm` and don't define any other viewports, the styles will be applied from `sm` to `lg`; however, no style will be applied in the `xs` viewport. This is why it's best practice to always start by defining your `xs` viewport styles.
 
 When using breakpoint classes on column widths the setup is `"col-[viewport-width]-[column-width]"`. But with all other classes it's simply `"[styling class]-[viewport-width]"`.
 
-###Alignment classes
+### Alignment classes
 
 `HORIZONTAL`
-`start= flex-start`
-`center= center`
-`end= flex-end`
+* `start= flex-start`
+* `center= center`
+* `end= flex-end`
 
 `VERTICAL`
-`top= flex-start`
-`middle= center`
-`bottom= flex-end`
+* `top= flex-start`
+* `middle= center`
+* `bottom= flex-end`
 
 These classes can be used in conjunction with each other i.e. `class="start-xs top-xs"`
 
-###Distribution classes
+### Distribution classes
 
 If you wish to distribute the contents of a flex-parent or flex-child, the following classes can be used:
 
-`around= justify-content: space-around`
-`between= justify-content: space-between`
+* `around= justify-content: space-around`
+* `between= justify-content: space-between`
 
-###Re-ordering classes
+### Re-ordering classes
 
-`first= order: 0`
-`last`
+* `first= order: 0`
+* `last`
 
-`reverse= flex-direction:row-reverse`
+* `reverse= flex-direction:row-reverse`
 
-###Other classes
+### Other classes
 
 ![Offset image](/images/grid-offset.png)
 
