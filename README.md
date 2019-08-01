@@ -153,7 +153,7 @@ If you wish to distribute the contents of a flex-parent or flex-child, the follo
 
 ###Other classes
 
-![Offset image](/images/grid-offest.png)
+![Offset image](/images/grid-offset.png)
 
 If you would like to create space around content within your grid, you can use offset classes to do so. Just ensure that your column and offset numbers always add up to 12 across viewports.
 
