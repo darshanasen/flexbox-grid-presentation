@@ -94,9 +94,9 @@ The first step is to add `class="row"` on the direct flex-parent. Then we add a 
 </div>
 ```
 
-In order to test this out, let's start [a new project](/flexbox-grid-test.html).
+In order to test this out, let's start [a new project](/exercises/flexbox-grid-test.html).
 
-Let's navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add it to our project.
+Navigate to the [Flexbox Grid](https://github.com/kristoferjoseph/flexboxgrid) documentation and add the Grid CSS to our project.
 
 There are a number of ways to include Flexbox Grid within your project but we will be using the CDN:
 ```html
@@ -139,7 +139,7 @@ These classes can be used in conjunction with each other i.e. `class="start-xs t
 
 ### Distribution classes
 
-If you wish to distribute the contents of a flex-parent or flex-child, the following classes can be used:
+If you wish to distribute the contents of a flex-parent the following classes can be used:
 
 * `around= justify-content: space-around`
 * `between= justify-content: space-between`
@@ -155,9 +155,11 @@ If you wish to distribute the contents of a flex-parent or flex-child, the follo
 
 ![Offset image](/images/grid-offset.png)
 
-If you would like to create space around content within your grid, you can use offset classes to do so. Just ensure that your column and offset numbers always add up to 12 across viewports.
+If you would like to create space around content within your grid, you can use offset classes to do so. 
 
 `class="col-xs-offset-4 col-xs-8"`
+
+Please note that offsets create additional space on the _left_ of any element.
 
 ## Resources
 * [Flexbox Grid Classes](http://flexboxgrid.com/)
