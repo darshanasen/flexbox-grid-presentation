@@ -121,7 +121,7 @@ So far we have a basic grid set-up. But what if we wish for our layout to change
 
 These viewport classes work in ascending order so if you define a column width at `sm` and don't define any other viewports, the styles will be applied from `sm` to `lg`; however, no style will be applied in the `xs` viewport. This is why it's best practice to always start by defining your `xs` viewport styles.
 
-When using breakpoint classes on column widths the setup is `"col-[viewport-width]-[column-width]"`. But with all other classes it's simply `"[styling class]-[viewport-width]"`.
+When using breakpoint classes on column widths the setup is `"col-[viewport-width]-[column-width]"`. But with most other classes it's simply `"[styling class]-[viewport-width]"`.
 
 ### Alignment classes
 
